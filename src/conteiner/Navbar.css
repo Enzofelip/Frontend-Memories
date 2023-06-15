@@ -1,0 +1,29 @@
+.navbar{
+    background-color:#1146a6;
+    padding: 1rem 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul{
+    display: flex;
+    gap: 0.8rem;
+}
+
+.navbar ul li a{
+    background-color: #333;
+    padding:0.8rem;
+    border-radius: 7px;
+    margin-left: 1em;
+    transition: 0.5s
+}
+
+.navbar ul li a:hover{
+   background-color: #555;
+
+}
+
+.navbar a {
+    color:#fff;
+}
